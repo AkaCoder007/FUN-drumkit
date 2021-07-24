@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Drumkit</title>
+</head>
+
+<body>
+    <div class="drumkit">
+        <div class="pad" data-key="65">
+            <div class="name">A</div>
+            <audio data-key="65" src="sounds/clap.wav"></audio>
+            <img src="icons/clap.png" alt="cl" />
+        </div>
+        <div class="pad" data-key="83">
+            <div class="name">S</div>
+
+            <audio data-key="83" src="sounds/crash.wav"></audio>
+
+            <img src="icons/crash.png" alt="cr" />
+        </div>
+        <div class="pad" data-key="68">
+            <div class="name">D</div>
+
+            <img src="icons/closed-hihat.png" alt="ch" />
+            <audio data-key="68" src="sounds/closed-hihat.wav"></audio>
+        </div>
+        <div class="pad" data-key="87">
+            <div class="name">W</div>
+
+            <audio data-key="87" src="sounds/kick.wav"></audio>
+            <img src="icons/kick.png" alt="kk" />
+        </div>
+
+        <div class="pad" data-key="71">
+            <div class="name">G</div>
+
+            <img src="icons/snare.png" alt="sn" />
+            <audio data-key="71" src="sounds/snare.wav"></audio>
+        </div>
+
+        <div class="pad" data-key="32">
+            <div class="name">SPACE</div>
+
+            <img src="icons/open-hihat.png" alt="oh" />
+            <audio data-key="32" src="sounds/open-hihat.wav"></audio>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
